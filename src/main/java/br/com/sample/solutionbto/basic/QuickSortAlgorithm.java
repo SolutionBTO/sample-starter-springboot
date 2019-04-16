@@ -1,4 +1,4 @@
-package br.com.sample.solutionbto;
+package br.com.sample.solutionbto.basic;
 
 import static java.util.Arrays.sort;
 
