@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-import br.com.sample.solutionbto.basic.componentscan.ComponentDAO;
+import br.com.sample.basic.componentscan.ComponentDAO;
 
 
 @SpringBootApplication
-@ComponentScan("br.com.sample.solutionbto.basic.componentscan")
+@ComponentScan("br.com.sample.basic.componentscan")
 public class SolutionbtoComponentScanApplication {
 	
 private static Logger LOGGER = LoggerFactory.getLogger(SolutionbtoComponentScanApplication.class);

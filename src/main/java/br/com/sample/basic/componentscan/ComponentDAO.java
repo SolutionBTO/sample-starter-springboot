@@ -1,4 +1,4 @@
-package br.com.sample.solutionbto.basic.componentscan;
+package br.com.sample.basic.componentscan;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
