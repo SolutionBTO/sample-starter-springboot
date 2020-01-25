@@ -16,6 +16,6 @@ public class JdbcConnection {
 	private static final Logger LOGGER = LoggerFactory.getLogger(JdbcConnection.class);
 	
 	public JdbcConnection() {
-		LOGGER.info(">>>>>>>>>> "+JdbcConnection.class.getSimpleName()+" <<<<<<<<<<<");
+		LOGGER.info(">>>>>>>>>> Constructor="+JdbcConnection.class.getSimpleName()+" <<<<<<<<<<<");
 	}
 }

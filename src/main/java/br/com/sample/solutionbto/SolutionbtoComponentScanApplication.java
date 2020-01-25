@@ -24,6 +24,7 @@ private static Logger LOGGER = LoggerFactory.getLogger(SolutionbtoComponentScanA
 		
 		LOGGER.info(componentDAO.toString());
 		LOGGER.info(componentDAO.getComponentJdbcConnection().toString());
+		LOGGER.info(componentDAO.getComponentJdbcConnection().toString());
 		
 	}
 }
