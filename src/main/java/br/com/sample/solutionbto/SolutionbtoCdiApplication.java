@@ -23,12 +23,8 @@ public class SolutionbtoCdiApplication {
 		ApplicationContext context = SpringApplication.run(SolutionbtoCdiApplication.class, args);
 		
 		SomeCdiBusiness someCdiBusiness = context.getBean(SomeCdiBusiness.class);
-		SomeCdiBusiness someCdiBusiness1 = context.getBean(SomeCdiBusiness.class);
 		
 		LOGGER.info("{}", someCdiBusiness.toString());
 		LOGGER.info("{}", someCdiBusiness.getSomeCdiDAO().toString());
-		
-		LOGGER.info("{}", someCdiBusiness1.toString());
-		LOGGER.info("{}", someCdiBusiness1.getSomeCdiDAO().toString());
 	}
 }

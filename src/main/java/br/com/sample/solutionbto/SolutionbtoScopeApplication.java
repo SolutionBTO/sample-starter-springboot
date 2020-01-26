@@ -18,15 +18,12 @@ private static Logger LOGGER = LoggerFactory.getLogger(SolutionbtoScopeApplicati
 		ApplicationContext context = SpringApplication.run(SolutionbtoScopeApplication.class, args);
 		
 		PersonDAO personDAO = context.getBean(PersonDAO.class);
-		PersonDAO personDAO2 = context.getBean(PersonDAO.class);
 		
 		LOGGER.info(personDAO.toString());
 		LOGGER.info(personDAO.getJdbcConnection().toString());
 		LOGGER.info(personDAO.getJdbcConnection().toString());
-		
-		LOGGER.info(personDAO2.toString());
-		LOGGER.info(personDAO2.getJdbcConnection().toString());
-		LOGGER.info(personDAO2.getJdbcConnection().toString());
+		LOGGER.info(personDAO.getJdbcConnection().toString());
+		LOGGER.info(personDAO.getJdbcConnection().toString());
 		
 	}
 }
