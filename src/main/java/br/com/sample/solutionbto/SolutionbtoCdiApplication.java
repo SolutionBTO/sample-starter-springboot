@@ -26,5 +26,6 @@ public class SolutionbtoCdiApplication {
 		
 		LOGGER.info("{}", someCdiBusiness.toString());
 		LOGGER.info("{}", someCdiBusiness.getSomeCdiDAO().toString());
+		LOGGER.info("someCdiBusiness.findGreatestByData() ->"+someCdiBusiness.findGreatestByData());
 	}
 }
